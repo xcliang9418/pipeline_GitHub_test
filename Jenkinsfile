@@ -14,7 +14,8 @@ pipeline {
 
       }
       steps {
-        stash(name: '缓存文件的标记', allowEmpty: false, excludes: null, includes: null, useDefaultExcludes: false)
+        sh 'echo "hahahaha,very good!"'
+        echo 'ni zhen  bang  .你真棒！'
       }
     }
 
